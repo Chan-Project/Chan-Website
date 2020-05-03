@@ -8,22 +8,28 @@
         <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="src/css/bulma.min.css">
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     </head>
     <body>
         <header>
-            <nav class="navbar" role="navigation" aria-label="main navigation">
+            <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
                     <a href="#" class="navbar-item">
                         <img src="src/logo.png" alt="Logo de CHÂN">
                         <strong>Chân</strong>
                     </a>
                 </div>
-                <div class="navbar-end">
-                    <a href="" class="navbar-item">HOME</a>
-                    <a href="" class="navbar-item">SERVICES</a>
-                    <a href="" class="navbar-item">AUTHOR</a>
-                    <a href="" class="navbar-item">ABOUT</a>
-                    <a href="" class="navbar-item">CONTACTS</a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-a">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+                <div id="navbar-a" class="navbar-end">
+                    <a href="" class="navbar-item">Home</a>
+                    <a href="" class="navbar-item">Services</a>
+                    <a href="" class="navbar-item">Author</a>
+                    <a href="" class="navbar-item">About</a>
+                    <a href="" class="navbar-item">Contacts</a>
                 </div>
             </nav>
         </header>

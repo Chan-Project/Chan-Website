@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="bulma" level="application" />
     <orderEntry type="library" name="all" level="application" />
+    <orderEntry type="library" name="vue" level="application" />
   </component>
 </module>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2944eaf3-dde9-4e74-b775-6c20a5f94c0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Chan-Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Chan-Website.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/bulma.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -41,6 +41,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Evimeria\Projets\Chan-Website\src\css" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -51,7 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588456299360</updated>
-      <workItem from="1588456304478" duration="1085000" />
+      <workItem from="1588456304478" duration="2137000" />
+      <workItem from="1588537882390" duration="2123000" />
     </task>
     <servers />
   </component>
@@ -78,5 +84,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="767" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588456431275" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1588539550910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1588539550910" />
   </component>
 </project>

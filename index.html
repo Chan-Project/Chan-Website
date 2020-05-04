@@ -27,20 +27,41 @@
                         <img src="src/logo.png" alt="Logo de CHÂN">
                         <strong>Chân</strong>
                     </a>
+                    <a href="#" class="navbar-item" aria-haspopup="true" aria-controls="dropdown-menu"><i class="fas fa-globe" style="color:#1b1b1b;"></i></a>
                     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" onclick="$('#navbar-a').toggleClass('is-active')">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                     </a>
                 </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-item">
+                            Dropdown item
+                        </a>
+                        <a class="dropdown-item">
+                            Other dropdown item
+                        </a>
+                        <a href="#" class="dropdown-item is-active">
+                            Active dropdown item
+                        </a>
+                        <a href="#" class="dropdown-item">
+                            Other dropdown item
+                        </a>
+                        <hr class="dropdown-divider">
+                        <a href="#" class="dropdown-item">
+                            With a divider
+                        </a>
+                    </div>
+                </div>
                 <div class="navbar-menu" id="navbar-a">
                     <div class="navbar-end">
+                        <a class="navbar-item is-bordered"><i class="fas fa-moon"></i></a>
                         <a href="" class="navbar-item">Home</a>
                         <a href="" class="navbar-item">Services</a>
                         <a href="" class="navbar-item">About</a>
                         <a href="" class="navbar-item">Donations</a>
-                        <a href="" class="navbar-item">Contacts</a>
-                    </div>
+                        <a href="" class="navbar-item">Contacts</a></div>
                 </div>
             </nav>
         </header>
@@ -84,9 +105,12 @@
                 <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab accusamus amet animi distinctio dolor dolore explicabo fugit ipsam labore magnam maiores nam nemo quaerat quo ratione sint, sunt voluptate.</span><span>Accusantium commodi cupiditate earum laborum libero molestiae molestias omnis optio, recusandae tenetur? Eos exercitationem in ipsum, nihil nisi nulla obcaecati officiis omnis quaerat, qui quod, reiciendis reprehenderit sapiente ullam ut.</span><span>Aliquid architecto aspernatur at autem beatae consectetur culpa dolor dolorum excepturi fuga illum in inventore magnam molestiae, nobis non quae quas quasi, recusandae, sed sunt temporibus voluptas. Assumenda inventore, recusandae.</span><span>Ad aperiam asperiores aspernatur consequatur dolorem dolores eligendi esse expedita facere, fugiat ipsa magni modi natus, nihil nobis numquam obcaecati placeat praesentium quam, qui reiciendis soluta tempore vel voluptas voluptatibus?</span><span>Ab accusantium aperiam asperiores consequatur, deleniti dolor eligendi eveniet expedita fuga fugit, modi necessitatibus officia optio placeat quis sed sequi. Animi asperiores iusto minima nemo nesciunt quae rem ut. Corporis!</span>
             </p>
         </section>
-        <footer class="footer is-fixed-bottom has-background-grey-darker">
-            <div class="content has-text-left">
-                <p class="has-text-white">&copy;2020 Ergazia</p>
+        <footer class="footer is-fixed-bottom has-background-black-bis">
+            <div class="content has-text-centered">
+                <figure class="image is-128x128 is-inline-block">
+                    <img src="src/logo.png" alt="">
+                    
+                </figure>
             </div>
         </footer>
     </body>

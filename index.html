@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="src/css/bulma.min.css">
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -19,17 +20,19 @@
                         <strong>Chân</strong>
                     </a>
                 </div>
-                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-a">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-a" onclick="$('#navbar-a').toggleClass('is-active')">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                 </a>
-                <div id="navbar-a" class="navbar-end">
-                    <a href="" class="navbar-item">Home</a>
-                    <a href="" class="navbar-item">Services</a>
-                    <a href="" class="navbar-item">Author</a>
-                    <a href="" class="navbar-item">About</a>
-                    <a href="" class="navbar-item">Contacts</a>
+                <div class="navbar-menu" id="navbar-a">
+                    <div class="navbar-end">
+                        <a href="" class="navbar-item">Home</a>
+                        <a href="" class="navbar-item">Services</a>
+                        <a href="" class="navbar-item">Author</a>
+                        <a href="" class="navbar-item">About</a>
+                        <a href="" class="navbar-item">Contacts</a>
+                    </div>
                 </div>
             </nav>
         </header>

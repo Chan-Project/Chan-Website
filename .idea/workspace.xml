@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2944eaf3-dde9-4e74-b775-6c20a5f94c0f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Chan-Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Chan-Website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -55,7 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1588456299360</updated>
       <workItem from="1588456304478" duration="2137000" />
-      <workItem from="1588537882390" duration="6723000" />
+      <workItem from="1588537882390" duration="7409000" />
+      <workItem from="1588572888527" duration="1634000" />
     </task>
     <servers />
   </component>
@@ -74,6 +77,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588457044564" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1588573857228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1588573857228" />
     <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1588456516711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

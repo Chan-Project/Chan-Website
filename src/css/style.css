@@ -1,5 +1,5 @@
 .has-background-black-carbon{
-    background-color: #1b1b1b;
+    background-color: #1b1b1b !important;
 }
 .is-font-mont-bold{
     font-family: Montserrat Bold, sans-serif;
@@ -11,7 +11,7 @@
     font-family: "Montserrat", sans-serif;
 }
 .is-title{
-    font-size: 80px;
+    font-size: 32px;
     font-family: 'Poppins Black', sans-serif;
     padding-left: 12px;
 }
@@ -35,4 +35,14 @@
 }
 .is-bordered-bot{
     border-bottom: 2px solid gray;
+}
+.navbar{
+    background-color: #1b1b1b !important;
+}
+a.navbar-item:hover {
+     background-color: #1b1b1b !important;
+}
+
+.is-active{
+    background-color: #1b1b1b !important;
 }

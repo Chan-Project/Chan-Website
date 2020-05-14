@@ -12,6 +12,8 @@
 }
 .is-title{
     font-size: 80px;
+    font-family: 'Poppins Black', sans-serif;
+    padding-left: 12px;
 }
 .is-sub{
     font-size: 36px;
@@ -19,14 +21,15 @@
 
 .nav a{
     font-weight: 800;
-    text-shadow: 0 2px #6c5ce7;
+    text-shadow: 0 2px gray;
     font-family: 'Montserrat', sans-serif;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
 }
 
 .nav a:hover{
-    color: #6c5ce7 !important;
+    color: gray !important;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
+    text-shadow: none;
 }

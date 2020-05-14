@@ -1,3 +1,32 @@
 .has-background-black-carbon{
-    background-color: #1a1a1a;
+    background-color: #1b1b1b;
+}
+.is-font-mont-bold{
+    font-family: Montserrat Bold, sans-serif;
+}
+.is-font-mont-light{
+    font-family: "Montserrat Light", sans-serif;
+}
+.is-font-mont-regular{
+    font-family: "Montserrat", sans-serif;
+}
+.is-title{
+    font-size: 80px;
+}
+.is-sub{
+    font-size: 36px;
+}
+
+.nav a{
+    font-weight: 800;
+    text-shadow: 0 2px #6c5ce7;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.nav a:hover{
+    color: #6c5ce7 !important;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
 }

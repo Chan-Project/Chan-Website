@@ -33,3 +33,6 @@
     transition: all .3s ease;
     text-shadow: none;
 }
+.is-bordered-bot{
+    border-bottom: 2px solid gray;
+}

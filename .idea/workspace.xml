@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2944eaf3-dde9-4e74-b775-6c20a5f94c0f" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+>>>>>>> parent of b2c8280... New graphic chart
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +62,15 @@
       <updated>1588456299360</updated>
       <workItem from="1588456304478" duration="2137000" />
       <workItem from="1588537882390" duration="7409000" />
+<<<<<<< HEAD
+      <workItem from="1588572888527" duration="15612000" />
+      <workItem from="1588689101690" duration="717000" />
+      <workItem from="1589180814464" duration="1761000" />
+      <workItem from="1589358670936" duration="6393000" />
+      <workItem from="1589454442075" duration="365000" />
+=======
       <workItem from="1588572888527" duration="15432000" />
+>>>>>>> parent of b2c8280... New graphic chart
     </task>
     <servers />
   </component>

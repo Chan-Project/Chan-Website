@@ -49,3 +49,7 @@
 .is-bordered-bot{
     border-bottom: 2px solid gray;
 }
+
+.is-active{
+    text-align: center !important;
+}

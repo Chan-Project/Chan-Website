@@ -1,36 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chân</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Hello Bulma!</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+        <link rel="stylesheet" href="src/css/style.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
     <body>
-        <div class="is-mobile is-bordered-bot">
-            <nav class="navbar" role="navigation" aria-label="main navigation">
+        <header>
+            <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="">
-                        <p class="is-title has-text-white">CHÂN</p>
+                    <a class="navbar-item" href="#">
+                        <h1 class="is-title has-text-weight-bold">Chân</h1>
                     </a>
-                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" onclick="$('#navbar-a').toggleClass('is-active')">
+
+                    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                     </a>
                 </div>
-                <div class="navbar-menu" id="navbar-a">
-                    <div class="navbar-end navbar-item nav">
-                        <a class="navbar-item has-text-white is-font-mont-light" href="">HOME</a>
-                        <a class="navbar-item has-text-white is-font-mont-light" href="">SERVICES</a>
-                        <a class="navbar-item has-text-white is-font-mont-light" href="">ABOUT</a>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <a href="" class="nava navbar-item">
+                            Accueil
+                        </a>
+                        <a href="" class="nava navbar-item">
+                            Services
+                        </a>
+                        <a href="" class="nava navbar-item">
+                            A propos
+                        </a>
+                        <div class="buttons">
+                            <a class="button is-dark">
+                                <strong>Documentation</strong>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </nav>
-        </div>
+        </header>
+        <section class="section">
+            <div class="container">
+                <h1 class="title">
+                    Title
+                </h1>
+                <p class="subtitle">
+                    Subtitle
+                </p>
+            </div>
+        </section>
     </body>
 </html>

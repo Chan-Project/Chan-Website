@@ -15,7 +15,19 @@
     font-family: 'Montserrat', sans-serif;
     color: #1b1b1b;
     padding-left: 12px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
 }
+.is-title:hover{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1b1b1b;
+    padding-left: 12px;
+    color: gray !important;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
 .is-sub{
     font-size: 36px;
 }

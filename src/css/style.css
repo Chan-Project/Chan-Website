@@ -53,3 +53,7 @@
 .is-active{
     text-align: center !important;
 }
+
+.notification{
+    background-color: white !important;
+}

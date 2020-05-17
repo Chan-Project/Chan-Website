@@ -12,9 +12,26 @@
         <header>
             <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="#">
-                        <h1 class="is-title has-text-weight-bold">Chân</h1>
-                    </a>
+                    <div class="navbar-item">
+                        <div class="dropdown is-hoverable">
+                            <div class="dropdown-trigger">
+                                <button class="button is-borderless" aria-haspopup="true" aria-controls="dropdown-menu4">
+                                    <img src="src/flags/fr.svg" alt="">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-item">
+                                        <p>content</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href=""><h1 class="is-title has-text-weight-bold">Chân</h1></a>
+                    </div>
                     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" onclick="document.getElementById('navbar-a').classList.toggle('is-active')">
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>

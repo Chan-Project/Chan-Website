@@ -57,3 +57,7 @@
 .notification{
     background-color: white !important;
 }
+
+.is-borderless{
+    border: none !important;
+}

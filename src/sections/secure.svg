@@ -1,0 +1,27 @@
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" width="201" height="320.5" viewBox="0 0 201 320.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #69c;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #1a1a1a;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: #333;
+      }
+    </style>
+  </defs>
+  <title>secure</title>
+  <path class="cls-1" d="M523.55,249H350.45A11.44,11.44,0,0,0,339,260.45v173.1A11.44,11.44,0,0,0,350.45,445h173.1A11.44,11.44,0,0,0,535,433.55V260.45A11.44,11.44,0,0,0,523.55,249Zm-72.8,122H423l6-15.76a13.88,13.88,0,1,1,16.25,0Z" transform="translate(-336.5 -127)"/>
+  <circle class="cls-2" cx="25.24" cy="144.74" r="9.37"/>
+  <circle class="cls-2" cx="181.44" cy="145.08" r="9.37"/>
+  <circle class="cls-2" cx="25.58" cy="300.94" r="9.37"/>
+  <circle class="cls-2" cx="181.44" cy="300.94" r="9.37"/>
+  <path class="cls-2" d="M492.63,147.44V249h-7.37V153.16c-48.42-38.1-97.39,0-97.39,0l.18,95.84h-7.33l-.22-101.56S436.89,107.07,492.63,147.44Z" transform="translate(-336.5 -127)"/>
+  <path class="cls-2" d="M436.5,299.5a51,51,0,1,0,51,51A51,51,0,0,0,436.5,299.5ZM450.75,371H423l6-15.76a13.88,13.88,0,1,1,16.25,0Z" transform="translate(-336.5 -127)"/>
+</svg>
